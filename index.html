@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109827825-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109827825-1');
+</script>
+
+
+
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HGN - Reviews, news, and thoughts</title>
+<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1483057088495226",
+    enable_page_level_ads: true
+  });
+</script>	
+
+<style>
+h1  {
+    font-family: 'Anton'; 
+	font-size: 75px;
+}
+h2  {
+    font-family: 'Anton'; 
+	font-size: 35px;
+}
+h4{ 
+font-family: 'Anton';
+}
+
+.homelink{
+
+font-size: 20px;
+margin:auto;
+
+}
+
+.bg1{
+background-color: red;
+color:white;
+padding-top:100px;
+padding-bottom:50px;
+text-align:center;
+
+}
+
+.bg2 {
+background-color:#1FB216;
+}
+
+.bg3 {background-color:#222222;}
+
+
+.image {
+    display: block;
+    margin: auto;
+    width: 75%;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+iframe{
+
+display: block;
+    margin: auto;
+ max-width:80%
+ padding-top:15px;
+	padding-bottom:15px;
+
+}
+
+
+p { font-size:20px;
+
+
+	
+}
+
+#pp{font-size:12px;}
+
+video {
+   ;
+}
+
+h3{
+	font-style: italic;
+}
+
+.footer{
+background-color:black;
+}
+
+
+#blogpost{
+margin-right:25px;
+ line-height: 200%;
+}
+/*body { padding-top: 70px; } */
+
+
+/* Youtube Reflexive */
+.vid-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 35px; height: 0; overflow: hidden;
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.share-box a {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 1px #777;
+  box-shadow: 0 0 1px #777;
+  padding: 5px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-decoration: none; }
+  .share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
+
+.f {
+  color: #3b5998; }
+  .f:hover {
+    color: #fff;
+    background-color: #3b5998; }
+
+.t {
+  color: #4099FF; }
+  .t:hover {
+    color: #fff;
+    background-color: #4099FF; }
+
+.g {
+  color: #d34836; }
+  .g:hover {
+    color: #fff;
+    background-color: #d34836; }
+
+.r {
+  color: #ff5700; }
+  .r:hover {
+    color: #fff;
+    background-color: #ff5700; }
+
+.l {
+  color: #0077b5; }
+  .l:hover {
+    color: #fff;
+    background-color: #0077b5; }
+
+.e {
+  color: #444444; }
+  .e:hover {
+    color: #fff;
+    background-color: #444444; }
+
+
+
+
+</style>
+{% seo %}
+<meta name="google-site-verification" content="zv0UzcDi8oPAaI3o5f5KAN31zbOOyWbtp7pd1wXP4NU" />
+<meta name="msvalidate.01" content="F65A7332D8049FEB32F82A1D917273E8" />
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- Facebook comments -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '793802020679428',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!--End facebook comments-->
+
+<header>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+	<div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+     <a class="navbar-brand homelink" href="{{site.url}}">HGN</a>
+	 
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-left">
+	   <!-- <li><a href="{{site.url}}" class="homelink">Home</a></li> -->
+		<!--<li><a href="about.html">About</a></li>-->
+		<li><a href="#Subs">Subscribe</a></li>
+	</ul>
+        
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="https://www.facebook.com/rajiblaze/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+		<li><a href="https://twitter.com/rajiblaze"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+		<li><a href="https://plus.google.com/u/1/+Rajiblaze?hl=en"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.twitch.tv/rajiblazeit"><i class="fa fa-twitch fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+
+	</div>
+</div>
+</nav>
+
+
+</header>
+
+<section class="container-fluid bg1" id="blogheader">
+
+<h1>Habitual Gaming Network</h1>
+<h4>Gaming news, reviews and thoughts</h4>
+</section>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper" id="blogpost">
+        {{ content }}
+      </div>
+    </main>
+	
+
+ <form  id="Subs" style="<!--border:1px solid #ccc;-->padding:3px;text-align:center;" action="https://tinyletter.com/rajiblaze" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rajiblaze', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p id="pp"><label for="tlemail">Subscribe to HGN Newsletter!</label></p><input type="text" style="width:140px" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/>&nbsp;&nbsp;<input type="submit" value="Subscribe" /><p ><a id="pp" href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+         
+
+  <section class="footer">
+<footer class="container-fluid" id="contact" align="center">
+ 
+  <h4>© 2017 A Rajiblaze Production</h4>
+  
+  
+</footer>
+</section>
+
+
+
+
+</body>
