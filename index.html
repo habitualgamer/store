@@ -198,30 +198,6 @@ margin-right:25px;
 
 <body>
 
-
-
-<!-- Facebook comments -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '793802020679428',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v2.9'
-    });
-    FB.AppEvents.logPageView();
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<!--End facebook comments-->
-
 <header>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -262,12 +238,7 @@ margin-right:25px;
 <h4>Gaming news, reviews and thoughts</h4>
 </section>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper" id="blogpost">
-        {{ content }}
-      </div>
-    </main>
-	
+   
 
  <form  id="Subs" style="<!--border:1px solid #ccc;-->padding:3px;text-align:center;" action="https://tinyletter.com/rajiblaze" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/rajiblaze', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p id="pp"><label for="tlemail">Subscribe to HGN Newsletter!</label></p><input type="text" style="width:140px" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/>&nbsp;&nbsp;<input type="submit" value="Subscribe" /><p ><a id="pp" href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
          
@@ -285,3 +256,4 @@ margin-right:25px;
 
 
 </body>
+</html>
